@@ -1,0 +1,344 @@
+nav{
+    width: 1110px;
+    height: 50px;
+    margin-top: 28px;
+    margin: 0 auto;
+
+    .nav-text{
+        width: 591px;
+        height: 26px;
+        margin-top: 13px;
+        display: flex;
+        align-items: center;
+        gap: 56px;  
+
+        #sneakers{
+            font-size: 30px;
+            text-decoration: none;
+            color: #1D2026;
+            font-family: "Kumbh Sans";
+            font-size: 44px;
+            font-weight: 700;
+        }
+
+        .container-img{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 46px;
+            margin-left: 365px;
+            cursor: pointer;
+        }
+
+        .container-title-text{
+            gap: 32px;
+            display: flex;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 26px;
+            color: #69707D;
+            padding-top: 5px;
+            
+            p:hover{
+                color: #1D2026;
+                cursor: pointer;
+                box-shadow: 0px 20px 50px -20px #FF7E1B;
+            }
+        }
+    }
+}
+.img-1 {
+    width: 2000px;
+    height: 1px;
+
+}
+
+.group-11 {
+    width: 1115px;
+    height: 565px;
+    margin-top: 90px;
+    display: flex;
+    background-color:#FFF;
+    border-radius: 20px;
+
+   
+
+    .group-11-1 {
+        width: 445px;
+        height: 565px;
+        margin-right: 125px;
+        overflow: hidden;
+        
+
+        img{
+            border-radius: 15px 30px 15px 15px;
+            margin: 35px 0 0 35px;
+        }
+    }
+
+    .group-11-2 {
+        width: 445px;
+        height: 426px;
+        margin-top: 62px;
+
+        .p-1 {
+            color: #FF7E1B;
+            font-family: "Kumbh Sans";
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 27px;
+        }
+
+       
+
+        .p-2{
+            color: #69707D;
+            font-family: "Kumbh Sans";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.group-9 {
+    margin-top: 32px;
+    gap: 31px;
+    width: 445px;
+    height: 83px;
+    flex-shrink: 0;
+    display: flex;
+
+    .group-9-img {
+        width: 88px;
+        height: 83px;
+        /* background-color:#b8a9a9; */
+        border-radius: 10px;
+
+        
+    }
+    .group-9-img img {
+        width: 88px;
+        height: 83px;
+        border-radius: 10px;
+    }
+}
+
+.group {
+    width: 230px;
+    height: 68px;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.indirim {
+    width: 70px;
+    height: 27px;
+    position: absolute; 
+    bottom: 37px;
+    right: 55px;
+    border-radius: 6px;
+    background: #FFEEE2;
+    text-align: center;
+    color: #FF7E1B;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 700;
+}
+.p-3{
+    color: #1D2026;
+    font-family: "Kumbh Sans";
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 106px;
+}
+.p-4{
+    color: #B6BCC8;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration-line: strikethrough;
+    width: 63px;
+    text-decoration: line-through;
+}
+.group-7 {
+    width: 445px;
+    height: 56px;
+    flex-shrink: 0;
+    display: flex;
+
+    .group-5{
+        width: 157px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #F6F8FD;
+        margin-right: 16px;
+        display: flex;
+        border: none;
+
+        a{
+            color: #1D2026;
+            text-align: center;
+            font-family: "Kumbh Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
+
+.btn-3 {
+    width: 272px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF7E1B;
+    border: none;
+
+    button {
+        width: 272px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FF7E1B;
+        border: none;
+        color: var(--Pure-White, #FFF);
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+.sepet-adet {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sepet-buton {
+    width: 30px;
+    height: 30px;
+    border:none;
+    background: #F6F8FD;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #FF7E1B;
+    font-size: 20px;
+  }
+  
+  .sepet-girdi {
+    width: 50px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+    color: #1D2026;
+    text-align: center;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 700;
+    background: #F6F8FD;
+  }
+  
+  .sepet-buton:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .sepet-buton:active {
+    background-color: #d9d9d9;
+  }
+  
+
+  .btn-3 button:active {
+    background: #FFAB6A;
+    box-shadow: 0px 20px 50px -20px #FF7E1B;
+  }
+
+  .desktop {
+    display: flex;
+    width: 1440px;
+    height: 900px;
+    padding: 28px 165px 132px 165px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sidenav {
+    height: 100%;
+    width: 400px; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #3b3a3a;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 32px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+
+.plus-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    img {
+        height: 120px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .delete-btn{
+        border-radius: 10px;
+        color: grey;
+        margin-top: auto;
+    }
+
+    p{
+        color: #1D2026;
+        font-family: "Kumbh Sans";
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        width: 106px;
+        margin-top: 10px;
+    }
+    background-color: #e9e2dd;
+
+    
+}
