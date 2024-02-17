@@ -7,12 +7,6 @@ async function sepetId(id) {
     const data = await response.json();
     return data;
 }
-async function yildiz(rating) {
-    const response = await fetch(`https://dummyjson.com/products/${rating}`);
-    const data = await response.json();
-    return data;
-}
-console.log(yildiz());
 async function getProduct() {
     const item = await sepetId(clickedProductsId);
 
@@ -68,6 +62,13 @@ async function getProduct() {
                 <button class="delete-btn">Delete</button>
             </div>
        `
+       const deleteBtns = document.querySelectorAll(".delete-btn");
+       deleteBtns.forEach(deleteBtn => {
+           deleteBtn.addEventListener("click", function() {
+               const plusItem = deleteBtn.closest(".plus-item");
+               plusItem.remove();
+           });
+       });
     });
 }
 
@@ -92,6 +93,7 @@ function adetArttir() {
     value++; 
     input.value = value; 
 }
+
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "400px";

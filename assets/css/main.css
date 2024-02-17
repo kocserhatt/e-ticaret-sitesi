@@ -117,7 +117,6 @@ nav{
     .group-9-img {
         width: 88px;
         height: 83px;
-        /* background-color:#b8a9a9; */
         border-radius: 10px;
 
         
@@ -325,8 +324,16 @@ nav{
     }
     .delete-btn{
         border-radius: 10px;
-        color: grey;
+        color: #FFF;
         margin-top: auto;
+        background-color: #FF7E1B;
+        border: none;
+        color: var(--Pure-White, #FFF);
+        font-family: "Kumbh Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
 
     p{
